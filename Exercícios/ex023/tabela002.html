@@ -26,8 +26,16 @@
             background-color: lightgray;
         }
 
+        tbody > tr:nth-child(odd) { /* Seleciona as linhas ímpares do corpo da tabela */ /*2n - 1*/
+            background-color: lightgray;
+        }
+
+        tbody > tr:nth-child(even) { /* Seleciona as linhas pares do corpo da tabela */ /*2n*/
+            background-color: white;
+        }
+
         thead, tfoot {
-            background-color: gray;
+            background-color: rgb(35, 35, 35);
             color: white;
         }
     </style>
